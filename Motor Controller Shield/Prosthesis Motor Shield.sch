@@ -6743,6 +6743,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <text x="231.14" y="165.1" size="1.778" layer="95">Knee Load</text>
 <text x="231.14" y="162.56" size="1.778" layer="95">Hip Pressure</text>
 <text x="231.14" y="160.02" size="1.778" layer="95">Hip Load</text>
+<text x="144.78" y="223.52" size="1.778" layer="95">M2_ACT_SIG_DET</text>
+<text x="147.32" y="162.56" size="1.778" layer="95">M1_ACT_SIG_DET</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
@@ -7285,9 +7287,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="JP4" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<pinref part="74VHC14MTCX" gate="A" pin="~Q3"/>
-<wire x1="134.62" y1="167.64" x2="139.7" y2="167.64" width="0.2032" layer="91"/>
-<label x="139.7" y="167.64" size="1.778" layer="95"/>
+<pinref part="74VHC14MTCX1" gate="A" pin="~Q1"/>
+<wire x1="134.62" y1="220.98" x2="137.16" y2="220.98" width="0.2032" layer="91"/>
+<label x="137.16" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -7309,9 +7311,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="JP4" gate="G$1" pin="8"/>
 </segment>
 <segment>
-<pinref part="74VHC14MTCX" gate="A" pin="~Q4"/>
-<wire x1="134.62" y1="165.1" x2="139.7" y2="165.1" width="0.2032" layer="91"/>
-<label x="139.7" y="165.1" size="1.778" layer="95"/>
+<pinref part="74VHC14MTCX1" gate="A" pin="~Q2"/>
+<wire x1="134.62" y1="218.44" x2="137.16" y2="218.44" width="0.2032" layer="91"/>
+<label x="137.16" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D8" class="0">
@@ -7488,6 +7490,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="164.592" y="82.042" size="1.778" layer="95" rot="R180"/>
 <pinref part="JP9" gate="G$1" pin="14"/>
 </segment>
+<segment>
+<pinref part="74VHC14MTCX" gate="A" pin="~Q5"/>
+<wire x1="134.62" y1="162.56" x2="139.7" y2="162.56" width="0.2032" layer="91"/>
+<label x="139.7" y="162.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D28" class="0">
 <segment>
@@ -7604,6 +7611,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="165.1" y1="109.22" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
 <label x="164.592" y="110.49" size="1.778" layer="95" rot="R180"/>
 <pinref part="JP9" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<pinref part="74VHC14MTCX1" gate="A" pin="~Q0"/>
+<wire x1="134.62" y1="223.52" x2="137.16" y2="223.52" width="0.2032" layer="91"/>
+<label x="137.16" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D50" class="0">
@@ -7794,9 +7806,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="74VHC14MTCX" gate="A" pin="A3"/>
-<wire x1="99.06" y1="162.56" x2="93.98" y2="162.56" width="0.2032" layer="91"/>
-<label x="93.98" y="162.56" size="1.778" layer="95" rot="R180"/>
+<pinref part="74VHC14MTCX1" gate="A" pin="A1"/>
+<wire x1="99.06" y1="215.9" x2="93.98" y2="215.9" width="0.2032" layer="91"/>
+<label x="93.98" y="215.9" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="MOT2_ROCK_DOWN" class="0">
@@ -7812,9 +7824,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="74VHC14MTCX" gate="A" pin="A4"/>
-<wire x1="99.06" y1="160.02" x2="93.98" y2="160.02" width="0.2032" layer="91"/>
-<label x="93.98" y="160.02" size="1.778" layer="95" rot="R180"/>
+<pinref part="74VHC14MTCX1" gate="A" pin="A2"/>
+<wire x1="99.06" y1="213.36" x2="93.98" y2="213.36" width="0.2032" layer="91"/>
+<label x="93.98" y="213.36" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="MOT1_ROCK_DOWN" class="0">
@@ -7871,20 +7883,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="74VHC14MTCX1" gate="A" pin="A0"/>
 <wire x1="99.06" y1="218.44" x2="93.98" y2="218.44" width="0.2032" layer="91"/>
 <label x="93.98" y="218.44" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="M1_ACT_SIG_DET" class="0">
-<segment>
-<pinref part="74VHC14MTCX" gate="A" pin="~Q5"/>
-<wire x1="134.62" y1="162.56" x2="139.7" y2="162.56" width="0.2032" layer="91"/>
-<label x="139.7" y="162.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="M2_ACT_SIG_DET" class="0">
-<segment>
-<pinref part="74VHC14MTCX1" gate="A" pin="~Q0"/>
-<wire x1="134.62" y1="223.52" x2="137.16" y2="223.52" width="0.2032" layer="91"/>
-<label x="137.16" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
