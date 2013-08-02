@@ -224,21 +224,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="RELAY-G5V">
-<description>G5Q SPDT Relay (SparkFun SKU: COM-00100). Footprint should also work with SPST-NO relay.</description>
-<wire x1="6.35" y1="3.81" x2="6.35" y2="-3.81" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-3.81" x2="-6.35" y2="-3.81" width="0.2032" layer="21"/>
-<wire x1="-6.35" y1="-3.81" x2="-6.35" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="-6.35" y1="3.81" x2="6.35" y2="3.81" width="0.2032" layer="21"/>
-<pad name="6" x="-5.08" y="-2.54" drill="1.016"/>
-<pad name="9" x="2.54" y="-2.54" drill="1.016"/>
-<pad name="10" x="5.08" y="-2.54" drill="1.016"/>
-<pad name="1" x="5.08" y="2.54" drill="1.016"/>
-<pad name="5" x="-5.08" y="2.54" drill="1.016"/>
-<pad name="2" x="2.54" y="2.54" drill="1.016"/>
-<text x="-2.54" y="0" size="0.6096" layer="25">&gt;Name</text>
-<text x="-2.54" y="-1.27" size="0.6096" layer="27">&gt;Value</text>
-</package>
 <package name="STAND-OFF">
 <description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
 This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
@@ -314,7 +299,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-1.5" y1="2.5" x2="-1.5" y2="3.25" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
 </package>
-<package name="1X09">
+<package name="1X08">
 <wire x1="14.605" y1="1.27" x2="15.875" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="15.875" y1="1.27" x2="16.51" y2="0.635" width="0.2032" layer="21"/>
 <wire x1="16.51" y1="-0.635" x2="15.875" y2="-1.27" width="0.2032" layer="21"/>
@@ -360,18 +345,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="17.145" y1="1.27" x2="18.415" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="18.415" y1="1.27" x2="19.05" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="19.05" y1="0.635" x2="19.05" y2="-0.635" width="0.2032" layer="21"/>
 <wire x1="19.05" y1="-0.635" x2="18.415" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="17.145" y1="1.27" x2="16.51" y2="0.635" width="0.2032" layer="21"/>
 <wire x1="16.51" y1="-0.635" x2="17.145" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="18.415" y1="-1.27" x2="17.145" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="19.685" y1="1.27" x2="20.955" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="20.955" y1="1.27" x2="21.59" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="21.59" y1="-0.635" x2="20.955" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="19.685" y1="1.27" x2="19.05" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="19.05" y1="-0.635" x2="19.685" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="20.955" y1="-1.27" x2="19.685" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="21.59" y1="0.635" x2="21.59" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="square" rot="R90"/>
 <pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -379,7 +358,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pad name="6" x="12.7" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="7" x="15.24" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="8" x="17.78" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="9" x="20.32" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="14.986" y1="-0.254" x2="15.494" y2="0.254" layer="51"/>
@@ -390,7 +368,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
-<rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
 </package>
 </packages>
 </library>
@@ -490,6 +467,41 @@ at 27/07/2012 14:48:47</description>
 <text x="-8.2042" y="8.7376" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-8.1788" y="10.795" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-7.2644" y="-5.08" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="relay">
+<description>&lt;b&gt;Relays&lt;/b&gt;&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eichhoff
+&lt;li&gt;Finder
+&lt;li&gt;Fujitsu
+&lt;li&gt;HAMLIN
+&lt;li&gt;OMRON
+&lt;li&gt;Matsushita
+&lt;li&gt;NAiS
+&lt;li&gt;Siemens
+&lt;li&gt;Schrack
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DS2Y">
+<description>&lt;b&gt;MINIATURE RELAY&lt;/b&gt; NAiS&lt;p&gt;
+Source: http://www.mew-europe.com/..  en_ds_61005_0023.pdf</description>
+<wire x1="-9.9" y1="4.85" x2="9.9" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="9.9" y1="4.85" x2="9.9" y2="-4.85" width="0.2032" layer="21"/>
+<wire x1="9.9" y1="-4.85" x2="-9.9" y2="-4.85" width="0.2032" layer="21"/>
+<wire x1="-9.9" y1="-4.85" x2="-9.9" y2="4.85" width="0.2032" layer="21"/>
+<pad name="1" x="-8.89" y="-3.81" drill="0.9"/>
+<pad name="4" x="-1.27" y="-3.81" drill="0.9"/>
+<pad name="6" x="3.81" y="-3.81" drill="0.9"/>
+<pad name="8" x="8.89" y="-3.81" drill="0.9"/>
+<pad name="9" x="8.89" y="3.81" drill="0.9"/>
+<pad name="11" x="3.81" y="3.81" drill="0.9"/>
+<pad name="13" x="-1.27" y="3.81" drill="0.9"/>
+<pad name="16" x="-8.89" y="3.81" drill="0.9"/>
+<text x="-8.89" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.89" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -683,13 +695,11 @@ design rules under a new name.</description>
 <element name="R2" library="SparkFun-Resistors" package="AXIAL-0.4" value="470" x="45.085" y="12.065" rot="R180"/>
 <element name="R3" library="SparkFun-Resistors" package="AXIAL-0.4" value="470" x="45.085" y="7.62" rot="R180"/>
 <element name="R4" library="SparkFun-Resistors" package="AXIAL-0.4" value="470" x="45.085" y="3.175" rot="R180"/>
-<element name="R5" library="SparkFun-Resistors" package="AXIAL-0.4" value="1K" x="46.355" y="30.48"/>
 <element name="R6" library="SparkFun-Resistors" package="AXIAL-0.4" value="1K" x="46.355" y="26.67"/>
 <element name="R7" library="SparkFun-Resistors" package="AXIAL-0.4" value="10K" x="14.605" y="22.225" rot="R90"/>
 <element name="Q4" library="SparkFun-DiscreteSemi" package="TO220V" value="MOSFET-NCHANNELFQP30N06L" x="21.59" y="21.59" rot="R90">
 <attribute name="PROD_ID" value="TRANS-10060" x="25.4" y="59.69" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="PRECHARGE_RELAY" library="SparkFun-Electromechanical" package="RELAY-G5V" value="RELAY-2G5Q" x="22.86" y="5.08" rot="R180"/>
 <element name="D1" library="SparkFun-DiscreteSemi" package="DIODE-1N4001" value="1N4001" x="23.495" y="12.065" rot="R180"/>
 <element name="OUTPUT" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-6" value="6pin" x="8.255" y="26.67" rot="R270"/>
 <element name="STANDOFF1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="2.54" y="2.54"/>
@@ -700,22 +710,28 @@ design rules under a new name.</description>
 <element name="ACTIVE" library="SparkFun-Connectors" package="1X02" value="M02PTH" x="46.355" y="15.875"/>
 <element name="PWR" library="SparkFun-Connectors" package="1X02" value="M02PTH" x="36.195" y="15.24"/>
 <element name="PRECHARGE" library="SparkFun-Connectors" package="1X02" value="M02PTH" x="26.035" y="15.24"/>
-<element name="Q1" library="SparkFun-DiscreteSemi" package="TO-92" value="" x="27.305" y="20.0025"/>
-<element name="Q2" library="SparkFun-DiscreteSemi" package="TO-92" value="" x="37.465" y="20.0025"/>
-<element name="Q3" library="SparkFun-DiscreteSemi" package="TO-92" value="" x="47.625" y="20.0025"/>
+<element name="Q1" library="SparkFun-DiscreteSemi" package="TO-92" value="2n2222" x="27.305" y="20.0025"/>
+<element name="Q3" library="SparkFun-DiscreteSemi" package="TO-92" value="2n2222" x="47.625" y="20.0025"/>
 <element name="RESISTOR" library="SparkFun-Connectors" package="1X02_2.54_SCREWTERM" value="M022.54MM_SCREWTERM" x="34.29" y="34.29"/>
-<element name="JP1" library="SparkFun-Connectors" package="1X09" value="M09" x="55.245" y="8.255" rot="R90"/>
 <element name="R8" library="SparkFun-Resistors" package="AXIAL-0.4" value="470k" x="16.51" y="5.08"/>
 <element name="R9" library="SparkFun-Resistors" package="AXIAL-0.4" value="120k" x="10.16" y="6.985"/>
 <element name="R10" library="SparkFun-Resistors" package="AXIAL-0.4" value="470k" x="20.32" y="14.2875"/>
 <element name="R11" library="SparkFun-Resistors" package="AXIAL-0.4" value="110k" x="20.955" y="15.5575"/>
 <element name="R12" library="SparkFun-Resistors" package="AXIAL-0.4" value="12k" x="33.3375" y="26.67"/>
-<element name="LM2903N" library="Fairchild_By_element14_Batch_1" package="DIP254P762X508-8" value="LM2903N" x="38.1" y="3.81">
-<attribute name="PACKAGE" value="PDIP" x="38.1" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_NEWARK" value="38C7339" x="38.1" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MPN" value="LM2903N" x="38.1" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="SUPPLIER" value="FAIRCHILD SEMICONDUCTOR" x="38.1" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="OC_FARNELL" value="9487638" x="38.1" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="R13" library="SparkFun-Resistors" package="AXIAL-0.4" value="3k" x="33.02" y="29.21"/>
+<element name="INPUT" library="SparkFun-Connectors" package="1X08" value="" x="57.15" y="27.94" rot="R270"/>
+<element name="K1" library="relay" package="DS2Y" value="DS2Y-S-DC5V" x="21.59" y="7.62">
+<attribute name="OC_NEWARK" value="13P3268" x="21.59" y="7.62" size="1.778" layer="27" ratio="15" display="off"/>
+<attribute name="MPN" value="DS2Y-S-DC5V" x="21.59" y="7.62" size="1.778" layer="27" ratio="15" display="off"/>
+<attribute name="MF" value="" x="21.59" y="7.62" size="1.778" layer="27" ratio="15" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="21.59" y="7.62" size="1.778" layer="27" ratio="15" display="off"/>
+</element>
+<element name="U1" library="Fairchild_By_element14_Batch_1" package="DIP254P762X508-8" value="LM393AN" x="39.37" y="3.81">
+<attribute name="PACKAGE" value="PDIP" x="39.37" y="3.81" size="1.778" layer="27" ratio="15" display="off"/>
+<attribute name="OC_NEWARK" value="58K1801" x="39.37" y="3.81" size="1.778" layer="27" ratio="15" display="off"/>
+<attribute name="MPN" value="LM393AN" x="39.37" y="3.81" size="1.778" layer="27" ratio="15" display="off"/>
+<attribute name="SUPPLIER" value="FAIRCHILD SEMICONDUCTOR" x="39.37" y="3.81" size="1.778" layer="27" ratio="15" display="off"/>
+<attribute name="OC_FARNELL" value="1633058" x="39.37" y="3.81" size="1.778" layer="27" ratio="15" display="off"/>
 </element>
 </elements>
 <signals>
@@ -739,16 +755,18 @@ design rules under a new name.</description>
 <contactref element="ACTIVE" pad="1"/>
 <contactref element="PWR" pad="1"/>
 <contactref element="PRECHARGE" pad="1"/>
-<contactref element="PRECHARGE_RELAY" pad="2"/>
 <contactref element="D1" pad="C"/>
-<contactref element="JP1" pad="2"/>
-<contactref element="LM2903N" pad="8"/>
-<wire x1="46.355" y1="15.875" x2="55.245" y2="10.795" width="0" layer="19" extent="1-1"/>
+<contactref element="R13" pad="P$1"/>
+<contactref element="INPUT" pad="2"/>
+<contactref element="K1" pad="1"/>
+<contactref element="U1" pad="8"/>
+<wire x1="46.355" y1="15.875" x2="57.15" y2="25.4" width="0" layer="19" extent="1-1"/>
 <wire x1="36.195" y1="15.24" x2="46.355" y2="15.875" width="0" layer="19" extent="1-1"/>
 <wire x1="26.035" y1="15.24" x2="36.195" y2="15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="18.415" y1="12.065" x2="26.035" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="20.32" y1="2.54" x2="18.415" y2="12.065" width="0" layer="19" extent="1-1"/>
-<wire x1="38.1" y1="11.43" x2="18.415" y2="12.065" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="3.81" x2="18.415" y2="12.065" width="0" layer="19" extent="1-1"/>
+<wire x1="27.94" y1="29.21" x2="26.035" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="39.37" y1="11.43" x2="12.7" y2="3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="R7" pad="P$1"/>
@@ -760,52 +778,49 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="Q4" pad="3"/>
 <contactref element="Q1" pad="1"/>
-<contactref element="Q2" pad="1"/>
 <contactref element="Q3" pad="1"/>
-<contactref element="JP1" pad="1"/>
 <contactref element="OUTPUT" pad="5"/>
 <contactref element="R12" pad="P$2"/>
-<contactref element="LM2903N" pad="4"/>
-<wire x1="36.195" y1="20.0025" x2="46.355" y2="20.0025" width="0" layer="19" extent="1-1"/>
-<wire x1="38.4175" y1="26.67" x2="36.195" y2="20.0025" width="0" layer="19" extent="1-1"/>
-<wire x1="26.035" y1="20.0025" x2="36.195" y2="20.0025" width="0" layer="19" extent="1-1"/>
+<contactref element="INPUT" pad="1"/>
+<contactref element="K1" pad="11"/>
+<contactref element="U1" pad="4"/>
+<contactref element="R3" pad="P$2"/>
+<wire x1="46.355" y1="20.0025" x2="57.15" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="38.4175" y1="26.67" x2="46.355" y2="20.0025" width="0" layer="19" extent="1-1"/>
+<wire x1="40.005" y1="7.62" x2="46.355" y2="20.0025" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="3.81" x2="40.005" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="11.43" x2="31.75" y2="3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="26.035" y1="20.0025" x2="25.4" y2="11.43" width="0" layer="19" extent="1-1"/>
 <wire x1="21.59" y1="24.13" x2="26.035" y2="20.0025" width="0" layer="19" extent="1-1"/>
 <wire x1="14.605" y1="17.145" x2="21.59" y2="24.13" width="0" layer="19" extent="1-1"/>
 <wire x1="8.255" y1="12.67" x2="14.605" y2="17.145" width="0" layer="19" extent="1-1"/>
-<wire x1="55.245" y1="8.255" x2="46.355" y2="20.0025" width="0" layer="19" extent="1-1"/>
-<wire x1="30.48" y1="3.81" x2="8.255" y2="12.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CONTACT_EN">
 <contactref element="Q4" pad="1"/>
 <contactref element="R7" pad="P$2"/>
-<contactref element="JP1" pad="3"/>
-<wire x1="21.59" y1="19.05" x2="55.245" y2="13.335" width="0" layer="19" extent="1-1"/>
+<contactref element="INPUT" pad="3"/>
+<wire x1="21.59" y1="19.05" x2="57.15" y2="22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="14.605" y1="27.305" x2="21.59" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PRECHARGE_EN">
 <contactref element="R6" pad="P$1"/>
-<contactref element="JP1" pad="4"/>
-<wire x1="41.275" y1="26.67" x2="55.245" y2="15.875" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PWR_LED">
-<contactref element="R5" pad="P$1"/>
-<contactref element="JP1" pad="5"/>
-<wire x1="55.245" y1="18.415" x2="41.275" y2="30.48" width="0" layer="19" extent="1-1"/>
+<contactref element="INPUT" pad="4"/>
+<wire x1="41.275" y1="26.67" x2="57.15" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V">
 <contactref element="OUTPUT" pad="4"/>
-<contactref element="JP1" pad="6"/>
-<wire x1="8.255" y1="16.17" x2="55.245" y2="20.955" width="0" layer="19" extent="1-1"/>
+<contactref element="INPUT" pad="5"/>
+<wire x1="8.255" y1="16.17" x2="57.15" y2="17.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ACTIVE_LED_EN">
 <contactref element="R1" pad="P$1"/>
-<contactref element="JP1" pad="7"/>
-<wire x1="41.275" y1="34.29" x2="55.245" y2="23.495" width="0" layer="19" extent="1-1"/>
+<contactref element="INPUT" pad="6"/>
+<wire x1="57.15" y1="15.24" x2="41.275" y2="34.29" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="THROTTLE">
 <contactref element="OUTPUT" pad="6"/>
-<contactref element="JP1" pad="8"/>
-<wire x1="8.255" y1="9.17" x2="55.245" y2="26.035" width="0" layer="19" extent="1-1"/>
+<contactref element="INPUT" pad="7"/>
+<wire x1="8.255" y1="9.17" x2="57.15" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="72V_IN">
 <contactref element="OUTPUT" pad="1"/>
@@ -814,8 +829,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="PRECHARGE_OUT">
 <contactref element="OUTPUT" pad="2"/>
-<contactref element="PRECHARGE_RELAY" pad="10"/>
-<wire x1="17.78" y1="7.62" x2="8.255" y2="23.17" width="0" layer="19" extent="1-1"/>
+<contactref element="K1" pad="6"/>
+<contactref element="K1" pad="9"/>
+<wire x1="30.48" y1="11.43" x2="8.255" y2="23.17" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="3.81" x2="30.48" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R2" pad="P$1"/>
@@ -834,12 +851,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="72V_IN_FUSED">
 <contactref element="PRECHARGE_FUSE" pad="1"/>
-<contactref element="RESISTOR" pad="P1"/>
 <contactref element="R10" pad="P$1"/>
 <contactref element="R8" pad="P$1"/>
-<wire x1="28.415" y1="34.29" x2="36.83" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="5.08" x2="28.415" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="14.2875" x2="11.43" y2="5.08" width="0" layer="19" extent="1-1"/>
+<contactref element="K1" pad="8"/>
+<wire x1="15.24" y1="14.2875" x2="28.415" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="5.08" x2="15.24" y2="14.2875" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="3.81" x2="11.43" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CONTACT_GND">
 <contactref element="OUTPUT" pad="3"/>
@@ -851,11 +868,6 @@ design rules under a new name.</description>
 <contactref element="Q3" pad="2"/>
 <wire x1="47.625" y1="21.9075" x2="51.435" y2="34.29" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWR_TRAN_IN">
-<contactref element="R5" pad="P$2"/>
-<contactref element="Q2" pad="2"/>
-<wire x1="37.465" y1="21.9075" x2="51.435" y2="30.48" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="PRECH_TRAN_IN">
 <contactref element="R6" pad="P$2"/>
 <contactref element="Q1" pad="2"/>
@@ -866,38 +878,28 @@ design rules under a new name.</description>
 <contactref element="Q3" pad="3"/>
 <wire x1="40.005" y1="12.065" x2="48.895" y2="20.0025" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$2">
-<contactref element="R3" pad="P$2"/>
-<contactref element="Q2" pad="3"/>
-<wire x1="40.005" y1="7.62" x2="38.735" y2="20.0025" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="PRECH_TRAN_COLLECTOR">
 <contactref element="R4" pad="P$2"/>
 <contactref element="D1" pad="A"/>
-<contactref element="PRECHARGE_RELAY" pad="9"/>
 <contactref element="Q1" pad="3"/>
+<contactref element="K1" pad="16"/>
 <wire x1="28.575" y1="12.065" x2="28.575" y2="20.0025" width="0" layer="19" extent="1-1"/>
-<wire x1="20.32" y1="7.62" x2="28.575" y2="12.065" width="0" layer="19" extent="1-1"/>
 <wire x1="40.005" y1="3.175" x2="28.575" y2="12.065" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="11.43" x2="28.575" y2="12.065" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PRECH_STATE">
-<contactref element="JP1" pad="9"/>
-<contactref element="LM2903N" pad="1"/>
-<wire x1="30.48" y1="11.43" x2="55.245" y2="28.575" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PRECHARGE_INPUT">
-<contactref element="RESISTOR" pad="P2"/>
-<contactref element="PRECHARGE_RELAY" pad="5"/>
-<contactref element="PRECHARGE_RELAY" pad="6"/>
-<contactref element="R9" pad="P$2"/>
-<wire x1="27.94" y1="7.62" x2="34.29" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="27.94" y1="2.54" x2="27.94" y2="7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="6.985" x2="27.94" y2="2.54" width="0" layer="19" extent="1-1"/>
+<contactref element="R13" pad="P$2"/>
+<contactref element="INPUT" pad="8"/>
+<contactref element="U1" pad="1"/>
+<wire x1="57.15" y1="10.16" x2="38.1" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="11.43" x2="38.1" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAP_CHARGE_REF">
 <contactref element="R11" pad="P$2"/>
 <contactref element="R12" pad="P$1"/>
+<contactref element="U1" pad="2"/>
 <wire x1="26.035" y1="15.5575" x2="28.2575" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="8.89" x2="26.035" y2="15.5575" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R10" pad="P$2"/>
@@ -907,7 +909,21 @@ design rules under a new name.</description>
 <signal name="CAP_CHARGE_V_CURR">
 <contactref element="R8" pad="P$2"/>
 <contactref element="R9" pad="P$1"/>
+<contactref element="U1" pad="3"/>
 <wire x1="5.08" y1="6.985" x2="21.59" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="6.35" x2="5.08" y2="6.985" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PRECHARGE_RESISTOR_IN">
+<contactref element="RESISTOR" pad="P1"/>
+<contactref element="K1" pad="4"/>
+<wire x1="20.32" y1="3.81" x2="36.83" y2="34.29" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PRECHARGE_RESISTOR_OUT">
+<contactref element="RESISTOR" pad="P2"/>
+<contactref element="K1" pad="13"/>
+<contactref element="R9" pad="P$2"/>
+<wire x1="20.32" y1="11.43" x2="34.29" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="6.985" x2="20.32" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
