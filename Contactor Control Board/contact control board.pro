@@ -1,13 +1,13 @@
 EAGLE AutoRouter Statistics:
 
-Job           : D:/DropBox/Dropbox/2012 Electric Power Pack Control System/Schematics and Design Docs/Prosthesis Contactor Control Board/contact control board.brd
+Job           : C:/Users/Gbot/Documents/eagle/Prosthesis/ProsthesisSchematic/Contactor Control Board/contact control board.brd
 
-Start at      : 14:53:41 (7/29/2013)
-End at        : 14:53:41 (7/29/2013)
+Start at      : 21:19:16 (8/1/2013)
+End at        : 21:19:16 (8/1/2013)
 Elapsed time  : 00:00:00
 
-Signals       :    21   RoutingGrid: 50 mil  Layers: 2
-Connections   :    33   predefined:  8 ( 0 Vias )
+Signals       :    26   RoutingGrid: 50 mil  Layers: 2
+Connections   :    36   predefined:  34 ( 1 Vias )
 
 Router memory :   10440
 
@@ -18,8 +18,8 @@ Number of Ripups  :         0         0         0         0         0         0
 max. Level        :         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0
 
-Routed            :         2        25        25        25        25        25
-Vias              :         0        15         1         1         1         0
-Resolution        :    30.3 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         0         2         2         2         2         2
+Vias              :         0         2         0         0         0         0
+Resolution        :    94.4 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 97.0% finished. Polygons may have fallen apart.
+Final             : 100.0% finished
