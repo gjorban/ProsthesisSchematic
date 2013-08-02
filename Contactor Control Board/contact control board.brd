@@ -18,7 +18,7 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="16" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="16" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -705,11 +705,11 @@ design rules under a new name.</description>
 <element name="Q3" library="SparkFun-DiscreteSemi" package="TO-92" value="" x="47.625" y="20.0025"/>
 <element name="RESISTOR" library="SparkFun-Connectors" package="1X02_2.54_SCREWTERM" value="M022.54MM_SCREWTERM" x="34.29" y="34.29"/>
 <element name="JP1" library="SparkFun-Connectors" package="1X09" value="M09" x="55.245" y="8.255" rot="R90"/>
-<element name="R8" library="SparkFun-Resistors" package="AXIAL-0.4" value="3M" x="16.51" y="5.08"/>
+<element name="R8" library="SparkFun-Resistors" package="AXIAL-0.4" value="470k" x="16.51" y="5.08"/>
 <element name="R9" library="SparkFun-Resistors" package="AXIAL-0.4" value="120k" x="10.16" y="6.985"/>
-<element name="R10" library="SparkFun-Resistors" package="AXIAL-0.4" value="3M" x="20.32" y="14.2875"/>
-<element name="R11" library="SparkFun-Resistors" package="AXIAL-0.4" value="120k" x="20.955" y="15.5575"/>
-<element name="R12" library="SparkFun-Resistors" package="AXIAL-0.4" value="120k" x="33.3375" y="26.67"/>
+<element name="R10" library="SparkFun-Resistors" package="AXIAL-0.4" value="470k" x="20.32" y="14.2875"/>
+<element name="R11" library="SparkFun-Resistors" package="AXIAL-0.4" value="110k" x="20.955" y="15.5575"/>
+<element name="R12" library="SparkFun-Resistors" package="AXIAL-0.4" value="12k" x="33.3375" y="26.67"/>
 <element name="LM2903N" library="Fairchild_By_element14_Batch_1" package="DIP254P762X508-8" value="LM2903N" x="38.1" y="3.81">
 <attribute name="PACKAGE" value="PDIP" x="38.1" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="OC_NEWARK" value="38C7339" x="38.1" y="3.81" size="1.778" layer="27" font="vector" ratio="15" display="off"/>

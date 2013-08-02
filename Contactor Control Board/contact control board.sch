@@ -3555,16 +3555,20 @@ at 27/07/2012 14:48:47</description>
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="TO92"/>
 <part name="RESISTOR" library="SparkFun-Connectors" deviceset="M02" device="2.54MM_SCREWTERM"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M09" device=""/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="3M"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="470k"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120k"/>
-<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="3M"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120k"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120k"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="470k"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="110k"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="12k"/>
 <part name="LM2903N" library="Fairchild_By_element14_Batch_1" deviceset="LM2903N" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="93.98" y="152.4" size="1.778" layer="95">1:5 Voltage divider for Op-amp Input based
+off of 125VDC input Max.
+
+Charge ref is ~10% of input voltage</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="45.72" y="83.82"/>
@@ -3974,4 +3978,10 @@ at 27/07/2012 14:48:47</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
