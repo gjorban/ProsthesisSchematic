@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -18,7 +18,7 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="16" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="16" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -117,7 +117,7 @@ OUT</text>
 <text x="0.635" y="19.05" size="1.016" layer="25" font="vector" ratio="15">CNTCT
 GND</text>
 <text x="0.635" y="15.24" size="1.016" layer="25" font="vector" ratio="15">CNTCT
-OUT</text>
++VE</text>
 <text x="0.635" y="12.065" size="1.016" layer="25" font="vector" ratio="15">GND</text>
 <text x="0.635" y="8.255" size="1.016" layer="25" font="vector" ratio="15">THRT</text>
 <text x="57.15" y="7.62" size="1.016" layer="25" font="vector" ratio="15">GND</text>
@@ -126,13 +126,12 @@ OUT</text>
 EN</text>
 <text x="57.15" y="14.605" size="1.016" layer="25" font="vector" ratio="15">PRECH.
 EN</text>
-<text x="57.15" y="17.78" size="1.016" layer="25" font="vector" ratio="15">PWRLED</text>
-<text x="57.15" y="20.32" size="1.016" layer="25" font="vector" ratio="15">12V</text>
-<text x="57.15" y="22.86" size="1.016" layer="25" font="vector" ratio="15">ACTIVE</text>
-<text x="57.15" y="25.4" size="1.016" layer="25" font="vector" ratio="15">THROT.</text>
+<text x="57.15" y="17.78" size="1.016" layer="25" font="vector" ratio="15">12V</text>
+<text x="57.15" y="20.0025" size="1.016" layer="25" font="vector" ratio="15">ACTIVE</text>
+<text x="57.15" y="22.86" size="1.016" layer="25" font="vector" ratio="15">THROT.</text>
 <text x="31.75" y="28.2575" size="1.016" layer="25" font="vector" ratio="15">Precharge
 Resistor</text>
-<text x="57.15" y="26.9875" size="1.016" layer="25" font="vector" ratio="15">PRECH
+<text x="57.15" y="24.765" size="1.016" layer="25" font="vector" ratio="15">PRECH
 STATE</text>
 </plain>
 <libraries>
@@ -719,7 +718,7 @@ design rules under a new name.</description>
 <element name="R11" library="SparkFun-Resistors" package="AXIAL-0.4" value="110k" x="20.955" y="15.5575"/>
 <element name="R12" library="SparkFun-Resistors" package="AXIAL-0.4" value="12k" x="33.3375" y="26.67"/>
 <element name="R13" library="SparkFun-Resistors" package="AXIAL-0.4" value="3k" x="33.02" y="29.21"/>
-<element name="INPUT" library="SparkFun-Connectors" package="1X08" value="" x="57.15" y="27.94" rot="R270"/>
+<element name="INPUT" library="SparkFun-Connectors" package="1X08" value="" x="55.245" y="8.255" rot="R90"/>
 <element name="K1" library="relay" package="DS2Y" value="DS2Y-S-DC5V" x="21.59" y="7.62">
 <attribute name="OC_NEWARK" value="13P3268" x="21.59" y="7.62" size="1.778" layer="27" ratio="15" display="off"/>
 <attribute name="MPN" value="DS2Y-S-DC5V" x="21.59" y="7.62" size="1.778" layer="27" ratio="15" display="off"/>
@@ -760,7 +759,7 @@ design rules under a new name.</description>
 <contactref element="INPUT" pad="2"/>
 <contactref element="K1" pad="1"/>
 <contactref element="U1" pad="8"/>
-<wire x1="46.355" y1="15.875" x2="57.15" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="46.355" y1="15.875" x2="55.245" y2="10.795" width="0" layer="19" extent="1-1"/>
 <wire x1="36.195" y1="15.24" x2="46.355" y2="15.875" width="0" layer="19" extent="1-1"/>
 <wire x1="26.035" y1="15.24" x2="36.195" y2="15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="18.415" y1="12.065" x2="26.035" y2="15.24" width="0" layer="19" extent="1-1"/>
@@ -785,7 +784,7 @@ design rules under a new name.</description>
 <contactref element="K1" pad="11"/>
 <contactref element="U1" pad="4"/>
 <contactref element="R3" pad="P$2"/>
-<wire x1="46.355" y1="20.0025" x2="57.15" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="46.355" y1="20.0025" x2="55.245" y2="8.255" width="0" layer="19" extent="1-1"/>
 <wire x1="38.4175" y1="26.67" x2="46.355" y2="20.0025" width="0" layer="19" extent="1-1"/>
 <wire x1="40.005" y1="7.62" x2="46.355" y2="20.0025" width="0" layer="19" extent="1-1"/>
 <wire x1="31.75" y1="3.81" x2="40.005" y2="7.62" width="0" layer="19" extent="1-1"/>
@@ -799,28 +798,28 @@ design rules under a new name.</description>
 <contactref element="Q4" pad="1"/>
 <contactref element="R7" pad="P$2"/>
 <contactref element="INPUT" pad="3"/>
-<wire x1="21.59" y1="19.05" x2="57.15" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="19.05" x2="55.245" y2="13.335" width="0" layer="19" extent="1-1"/>
 <wire x1="14.605" y1="27.305" x2="21.59" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PRECHARGE_EN">
 <contactref element="R6" pad="P$1"/>
 <contactref element="INPUT" pad="4"/>
-<wire x1="41.275" y1="26.67" x2="57.15" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="41.275" y1="26.67" x2="55.245" y2="15.875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V">
 <contactref element="OUTPUT" pad="4"/>
 <contactref element="INPUT" pad="5"/>
-<wire x1="8.255" y1="16.17" x2="57.15" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="8.255" y1="16.17" x2="55.245" y2="18.415" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ACTIVE_LED_EN">
 <contactref element="R1" pad="P$1"/>
 <contactref element="INPUT" pad="6"/>
-<wire x1="57.15" y1="15.24" x2="41.275" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="55.245" y1="20.955" x2="41.275" y2="34.29" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="THROTTLE">
 <contactref element="OUTPUT" pad="6"/>
 <contactref element="INPUT" pad="7"/>
-<wire x1="8.255" y1="9.17" x2="57.15" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="8.255" y1="9.17" x2="55.245" y2="23.495" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="72V_IN">
 <contactref element="OUTPUT" pad="1"/>
@@ -852,26 +851,14 @@ design rules under a new name.</description>
 <signal name="72V_IN_FUSED">
 <contactref element="PRECHARGE_FUSE" pad="1"/>
 <contactref element="R10" pad="P$1"/>
-<contactref element="R8" pad="P$1"/>
 <contactref element="K1" pad="8"/>
 <wire x1="15.24" y1="14.2875" x2="28.415" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="5.08" x2="15.24" y2="14.2875" width="0" layer="19" extent="1-1"/>
-<wire x1="30.48" y1="3.81" x2="11.43" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="3.81" x2="15.24" y2="14.2875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CONTACT_GND">
 <contactref element="OUTPUT" pad="3"/>
 <contactref element="Q4" pad="2"/>
 <wire x1="8.255" y1="19.67" x2="21.59" y2="21.59" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ACTIVE_TRAN_IN">
-<contactref element="R1" pad="P$2"/>
-<contactref element="Q3" pad="2"/>
-<wire x1="47.625" y1="21.9075" x2="51.435" y2="34.29" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PRECH_TRAN_IN">
-<contactref element="R6" pad="P$2"/>
-<contactref element="Q1" pad="2"/>
-<wire x1="27.305" y1="21.9075" x2="51.435" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R2" pad="P$2"/>
@@ -891,15 +878,15 @@ design rules under a new name.</description>
 <contactref element="R13" pad="P$2"/>
 <contactref element="INPUT" pad="8"/>
 <contactref element="U1" pad="1"/>
-<wire x1="57.15" y1="10.16" x2="38.1" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="55.245" y1="26.035" x2="38.1" y2="29.21" width="0" layer="19" extent="1-1"/>
 <wire x1="31.75" y1="11.43" x2="38.1" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAP_CHARGE_REF">
 <contactref element="R11" pad="P$2"/>
 <contactref element="R12" pad="P$1"/>
-<contactref element="U1" pad="2"/>
+<contactref element="U1" pad="3"/>
 <wire x1="26.035" y1="15.5575" x2="28.2575" y2="26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="8.89" x2="26.035" y2="15.5575" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="6.35" x2="26.035" y2="15.5575" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R10" pad="P$2"/>
@@ -909,14 +896,16 @@ design rules under a new name.</description>
 <signal name="CAP_CHARGE_V_CURR">
 <contactref element="R8" pad="P$2"/>
 <contactref element="R9" pad="P$1"/>
-<contactref element="U1" pad="3"/>
+<contactref element="U1" pad="2"/>
+<wire x1="21.59" y1="5.08" x2="31.75" y2="8.89" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="6.985" x2="21.59" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="6.35" x2="5.08" y2="6.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PRECHARGE_RESISTOR_IN">
 <contactref element="RESISTOR" pad="P1"/>
 <contactref element="K1" pad="4"/>
+<contactref element="R8" pad="P$1"/>
 <wire x1="20.32" y1="3.81" x2="36.83" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="5.08" x2="20.32" y2="3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PRECHARGE_RESISTOR_OUT">
 <contactref element="RESISTOR" pad="P2"/>
@@ -924,6 +913,16 @@ design rules under a new name.</description>
 <contactref element="R9" pad="P$2"/>
 <wire x1="20.32" y1="11.43" x2="34.29" y2="34.29" width="0" layer="19" extent="1-1"/>
 <wire x1="15.24" y1="6.985" x2="20.32" y2="11.43" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="R1" pad="P$2"/>
+<contactref element="Q3" pad="2"/>
+<wire x1="47.625" y1="21.9075" x2="51.435" y2="34.29" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PRECH_TRAN_IN">
+<contactref element="R6" pad="P$2"/>
+<contactref element="Q1" pad="2"/>
+<wire x1="27.305" y1="21.9075" x2="51.435" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
