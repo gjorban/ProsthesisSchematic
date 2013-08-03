@@ -3903,6 +3903,8 @@ Source: http://www.mew-europe.com/..  en_ds_61005_0023.pdf</description>
 off of 125VDC input Max.
 
 Charge ref is ~10% of input voltage</text>
+<text x="147.32" y="114.3" size="1.778" layer="95">*Output goes HIGH (5V) when cap charge goes
+BELOW reference</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="66.04" y="83.82"/>
