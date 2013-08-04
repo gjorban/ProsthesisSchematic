@@ -3887,7 +3887,7 @@ Source: http://www.mew-europe.com/..  en_ds_61005_0023.pdf</description>
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="TO92" value="2n2222"/>
 <part name="RESISTOR" library="SparkFun-Connectors" deviceset="M02" device="2.54MM_SCREWTERM"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="470k"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="120k"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="13k"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="470k"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="110k"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="12k"/>
@@ -3899,7 +3899,7 @@ Source: http://www.mew-europe.com/..  en_ds_61005_0023.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="93.98" y="152.4" size="1.778" layer="95">1:5 Voltage divider for Op-amp Input based
+<text x="93.98" y="152.4" size="1.778" layer="95">1:37.5 (0-3.33V) Voltage divider for Op-amp Input based
 off of 125VDC input Max.
 
 Charge ref is ~10% of input voltage</text>
@@ -4125,6 +4125,11 @@ BELOW reference</text>
 <wire x1="7.62" y1="7.62" x2="2.54" y2="7.62" width="0.2032" layer="91"/>
 <label x="2.54" y="7.62" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="142.24" x2="71.12" y2="137.16" width="0.2032" layer="91"/>
+<label x="71.12" y="137.16" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="N$9" class="0">
 <segment>
@@ -4259,12 +4264,6 @@ BELOW reference</text>
 <wire x1="12.7" y1="17.78" x2="2.54" y2="17.78" width="0.2032" layer="91"/>
 <label x="2.54" y="17.78" size="1.778" layer="95" rot="R180"/>
 </segment>
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="165.1" x2="71.12" y2="167.64" width="0.2032" layer="91"/>
-<wire x1="71.12" y1="167.64" x2="63.5" y2="167.64" width="0.2032" layer="91"/>
-<label x="63.5" y="167.64" size="1.778" layer="95" rot="R180"/>
-</segment>
 </net>
 <net name="PRECHARGE_RESISTOR_OUT" class="0">
 <segment>
@@ -4279,9 +4278,10 @@ BELOW reference</text>
 <label x="2.54" y="-2.54" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="142.24" x2="71.12" y2="137.16" width="0.2032" layer="91"/>
-<label x="71.12" y="137.16" size="1.778" layer="95" rot="R180"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="165.1" x2="71.12" y2="167.64" width="0.2032" layer="91"/>
+<wire x1="71.12" y1="167.64" x2="63.5" y2="167.64" width="0.2032" layer="91"/>
+<label x="63.5" y="167.64" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$2" class="0">
