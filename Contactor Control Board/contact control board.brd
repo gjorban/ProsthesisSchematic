@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -18,7 +18,7 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="16" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="16" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -110,15 +110,14 @@
 <wire x1="75.87" y1="50.79" x2="0" y2="50.79" width="0" layer="20"/>
 <wire x1="0" y1="50.79" x2="0" y2="0" width="0" layer="20"/>
 <text x="11.1125" y="41.5925" size="1.4224" layer="25" ratio="15">2A Fast Blow</text>
-<text x="0.9525" y="32.385" size="1.016" layer="25" font="vector" ratio="15">72V
-IN</text>
+<text x="0.9525" y="33.02" size="1.016" layer="25" font="vector" ratio="15">B+</text>
 <text x="0.9525" y="29.21" size="1.016" layer="25" font="vector" ratio="15">PREC
 OUT</text>
 <text x="0.9525" y="26.035" size="1.016" layer="25" font="vector" ratio="15">CNTCT
 GND</text>
 <text x="0.9525" y="22.225" size="1.016" layer="25" font="vector" ratio="15">CNTCT
-+VE</text>
-<text x="0.9525" y="19.05" size="1.016" layer="25" font="vector" ratio="15">GND</text>
+PWR</text>
+<text x="0.9525" y="19.05" size="1.016" layer="25" font="vector" ratio="15">B-</text>
 <text x="0.9525" y="15.24" size="1.016" layer="25" font="vector" ratio="15">THRT</text>
 <text x="69.85" y="16.8275" size="1.016" layer="25" font="vector" ratio="15">GND</text>
 <text x="69.85" y="19.3675" size="1.016" layer="25" font="vector" ratio="15">5V</text>
