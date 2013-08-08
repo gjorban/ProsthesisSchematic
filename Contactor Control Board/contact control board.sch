@@ -3610,6 +3610,7 @@ Source: http://www.mew-europe.com/..  en_ds_61005_0023.pdf</description>
 <part name="CHARGED" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="TO92" value="2n2222"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="470"/>
+<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -3656,6 +3657,7 @@ ABOVE reference</text>
 <instance part="CHARGED" gate="G$1" x="119.38" y="88.9" rot="R270"/>
 <instance part="Q2" gate="G$1" x="142.24" y="76.2" rot="R90"/>
 <instance part="R5" gate="G$1" x="129.54" y="78.74"/>
+<instance part="R14" gate="G$1" x="20.32" y="38.1" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -3814,14 +3816,14 @@ ABOVE reference</text>
 </net>
 <net name="THROTTLE" class="0">
 <segment>
-<pinref part="OUTPUT" gate="G$1" pin="6"/>
-<wire x1="-5.08" y1="48.26" x2="-10.16" y2="48.26" width="0.2032" layer="91"/>
-<label x="-12.7" y="48.26" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <wire x1="127" y1="53.34" x2="129.54" y2="53.34" width="0.2032" layer="91"/>
 <label x="132.08" y="53.34" size="1.778" layer="95"/>
 <pinref part="INPUT" gate="G$1" pin="6"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="38.1" x2="10.16" y2="38.1" width="0.2032" layer="91"/>
+<label x="10.16" y="38.1" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="72V_IN" class="0">
@@ -4041,6 +4043,18 @@ ABOVE reference</text>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="Q2" gate="G$1" pin="C"/>
 <wire x1="134.62" y1="78.74" x2="137.16" y2="78.74" width="0.2032" layer="91"/>
+</segment>
+</net>
+<net name="THROTTLE_CURRENT_LIMITED" class="0">
+<segment>
+<pinref part="OUTPUT" gate="G$1" pin="6"/>
+<wire x1="-5.08" y1="48.26" x2="-10.16" y2="48.26" width="0.2032" layer="91"/>
+<label x="-12.7" y="48.26" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="38.1" x2="30.48" y2="38.1" width="0.2032" layer="91"/>
+<label x="30.48" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
