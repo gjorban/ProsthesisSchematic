@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -32,7 +32,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -767,6 +767,11 @@ design rules under a new name.</description>
 <vertex x="56.515" y="82.2325"/>
 </polygon>
 <contactref element="JP1" pad="3"/>
+<wire x1="22.86" y1="51.1175" x2="53.6575" y2="44.465" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="51.1175" x2="22.86" y2="51.1175" width="0" layer="19" extent="1-1"/>
+<wire x1="15.5575" y1="71.755" x2="20.32" y2="51.1175" width="0" layer="19" extent="1-1"/>
+<wire x1="33.0275" y1="2.8575" x2="53.6575" y2="44.465" width="0" layer="19" extent="1-1"/>
+<wire x1="11.4375" y1="2.8575" x2="33.0275" y2="2.8575" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MULTIPURPOSE_INPUT">
 <contactref element="BMS_IO" pad="13"/>
@@ -822,6 +827,19 @@ design rules under a new name.</description>
 <vertex x="0.635" y="0.635"/>
 </polygon>
 <contactref element="JP1" pad="2"/>
+<wire x1="33.9" y1="28.575" x2="53.6575" y2="40.965" width="0" layer="19" extent="1-1"/>
+<wire x1="34.29" y1="24.765" x2="33.9" y2="28.575" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="24.765" x2="34.29" y2="24.765" width="0" layer="19" extent="1-1"/>
+<wire x1="23.105" y1="28.575" x2="29.21" y2="24.765" width="0" layer="19" extent="1-1"/>
+<wire x1="34.29" y1="17.145" x2="34.29" y2="24.765" width="0" layer="19" extent="1-1"/>
+<wire x1="23.495" y1="17.145" x2="29.21" y2="24.765" width="0" layer="19" extent="1-1"/>
+<wire x1="12.31" y1="28.575" x2="23.105" y2="28.575" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="24.765" x2="12.31" y2="28.575" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="24.765" x2="12.7" y2="24.765" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="17.145" x2="12.7" y2="24.765" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="61.2775" x2="23.105" y2="28.575" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="63.8175" x2="20.32" y2="61.2775" width="0" layer="19" extent="1-1"/>
+<wire x1="7.9375" y1="77.89" x2="22.86" y2="63.8175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STATE_OF_CHARGE">
 <contactref element="BMS_IO" pad="4"/>
