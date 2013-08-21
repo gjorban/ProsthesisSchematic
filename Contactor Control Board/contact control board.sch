@@ -4120,9 +4120,9 @@ ABOVE reference</text>
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="114.3" y1="121.92" x2="104.14" y2="121.92" width="0.2032" layer="91"/>
-<label x="104.14" y="121.92" size="1.778" layer="95" rot="R180"/>
-<pinref part="LM393M" gate="A" pin="IN1_(+)"/>
+<wire x1="114.3" y1="119.38" x2="104.14" y2="119.38" width="0.2032" layer="91"/>
+<label x="104.14" y="119.38" size="1.778" layer="95" rot="R180"/>
+<pinref part="LM393M" gate="A" pin="IN1_(-)"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -4140,9 +4140,9 @@ ABOVE reference</text>
 <pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="114.3" y1="119.38" x2="104.14" y2="119.38" width="0.2032" layer="91"/>
-<label x="104.14" y="119.38" size="1.778" layer="95" rot="R180"/>
-<pinref part="LM393M" gate="A" pin="IN1_(-)"/>
+<wire x1="114.3" y1="121.92" x2="104.14" y2="121.92" width="0.2032" layer="91"/>
+<label x="104.14" y="121.92" size="1.778" layer="95" rot="R180"/>
+<pinref part="LM393M" gate="A" pin="IN1_(+)"/>
 </segment>
 </net>
 <net name="PRECHARGE_RESISTOR_IN" class="0">

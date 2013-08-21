@@ -877,7 +877,13 @@ design rules under a new name.</description>
 <vertex x="18.415" y="42.545"/>
 <vertex x="18.415" y="49.8475"/>
 </polygon>
-<wire x1="33.02" y1="18.7325" x2="33.02" y2="14.9225" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="14.9225" x2="33.02" y2="12.7" width="1.016" layer="1"/>
+<via x="33.02" y="12.7" extent="1-16" drill="0.762" diameter="1.6764"/>
+<wire x1="33.02" y1="12.7" x2="32.7025" y2="13.0175" width="1.016" layer="16"/>
+<wire x1="32.7025" y1="13.0175" x2="25.7175" y2="13.0175" width="1.016" layer="16"/>
+<via x="25.7175" y="13.0175" extent="1-16" drill="0.762" diameter="1.6764"/>
+<wire x1="25.7175" y1="13.0175" x2="25.7175" y2="11.8975" width="1.016" layer="1"/>
+<wire x1="25.7175" y1="11.8975" x2="27.3075" y2="10.3075" width="1.016" layer="1"/>
 </signal>
 <signal name="CONTACT_EN">
 <contactref element="INPUT" pad="3"/>
@@ -1045,18 +1051,14 @@ design rules under a new name.</description>
 <signal name="CAP_CHARGE_REF">
 <contactref element="R10" pad="1"/>
 <contactref element="R11" pad="2"/>
-<contactref element="LM393M" pad="3"/>
 <wire x1="47.9425" y1="41.06" x2="50.165" y2="41.06" width="0.3048" layer="1"/>
-<wire x1="47.9425" y1="41.06" x2="47.9425" y2="40.005" width="0.3048" layer="1"/>
-<wire x1="47.9425" y1="40.005" x2="46.99" y2="39.0525" width="0.3048" layer="1"/>
-<wire x1="46.99" y1="39.0525" x2="29.845" y2="39.0525" width="0.3048" layer="1"/>
-<wire x1="29.845" y1="39.0525" x2="27.94" y2="37.1475" width="0.3048" layer="1"/>
-<wire x1="27.94" y1="37.1475" x2="27.94" y2="33.655" width="0.3048" layer="1"/>
-<via x="27.94" y="33.655" extent="1-16" drill="0.762"/>
-<wire x1="27.94" y1="33.655" x2="27.94" y2="30.7975" width="0.3048" layer="16"/>
-<via x="27.94" y="30.7975" extent="1-16" drill="0.762"/>
-<wire x1="27.94" y1="30.7975" x2="32.4485" y2="30.7975" width="0.3048" layer="1"/>
-<wire x1="32.4485" y1="30.7975" x2="32.766" y2="30.48" width="0.3048" layer="1"/>
+<contactref element="LM393M" pad="2"/>
+<wire x1="47.9425" y1="41.06" x2="46.57" y2="39.6875" width="0.3048" layer="1"/>
+<wire x1="46.57" y1="39.6875" x2="31.4325" y2="39.6875" width="0.3048" layer="1"/>
+<wire x1="31.4325" y1="39.6875" x2="27.305" y2="35.56" width="0.3048" layer="1"/>
+<wire x1="27.305" y1="35.56" x2="27.305" y2="33.3375" width="0.3048" layer="1"/>
+<wire x1="27.305" y1="33.3375" x2="28.8925" y2="31.75" width="0.3048" layer="1"/>
+<wire x1="28.8925" y1="31.75" x2="32.766" y2="31.75" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R9" pad="1"/>
@@ -1066,15 +1068,19 @@ design rules under a new name.</description>
 <signal name="CAP_CHARGE_V_CURR">
 <contactref element="R14" pad="1"/>
 <contactref element="R8" pad="2"/>
-<contactref element="LM393M" pad="2"/>
 <wire x1="46.0375" y1="45.8225" x2="47.9425" y2="45.8225" width="0.3048" layer="1"/>
-<wire x1="46.0375" y1="45.8225" x2="42.0125" y2="45.8225" width="0.3048" layer="1"/>
-<wire x1="42.0125" y1="45.8225" x2="37.1475" y2="40.9575" width="0.3048" layer="1"/>
-<wire x1="37.1475" y1="40.9575" x2="30.48" y2="40.9575" width="0.3048" layer="1"/>
-<wire x1="30.48" y1="40.9575" x2="26.67" y2="37.1475" width="0.3048" layer="1"/>
-<wire x1="26.67" y1="37.1475" x2="26.67" y2="33.3375" width="0.3048" layer="1"/>
-<wire x1="26.67" y1="33.3375" x2="28.575" y2="31.75" width="0.3048" layer="1"/>
-<wire x1="28.575" y1="31.75" x2="32.766" y2="31.75" width="0.3048" layer="1"/>
+<contactref element="LM393M" pad="3"/>
+<wire x1="46.0375" y1="45.8225" x2="42.33" y2="45.8225" width="0.3048" layer="1"/>
+<wire x1="42.33" y1="45.8225" x2="38.4175" y2="41.91" width="0.3048" layer="1"/>
+<wire x1="38.4175" y1="41.91" x2="33.655" y2="41.91" width="0.3048" layer="1"/>
+<wire x1="33.655" y1="41.91" x2="32.0675" y2="40.3225" width="0.3048" layer="1"/>
+<wire x1="32.0675" y1="40.3225" x2="30.7975" y2="40.3225" width="0.3048" layer="1"/>
+<wire x1="30.7975" y1="40.3225" x2="26.67" y2="36.195" width="0.3048" layer="1"/>
+<wire x1="26.67" y1="36.195" x2="26.67" y2="32.7025" width="0.3048" layer="1"/>
+<wire x1="26.67" y1="32.7025" x2="28.2575" y2="31.115" width="0.3048" layer="1"/>
+<wire x1="28.2575" y1="31.115" x2="29.845" y2="31.115" width="0.3048" layer="1"/>
+<wire x1="29.845" y1="31.115" x2="30.48" y2="30.48" width="0.3048" layer="1"/>
+<wire x1="30.48" y1="30.48" x2="32.766" y2="30.48" width="0.3048" layer="1"/>
 </signal>
 <signal name="PRECHARGE_RESISTOR_IN">
 <contactref element="RESISTOR" pad="P1"/>
