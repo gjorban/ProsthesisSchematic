@@ -3763,6 +3763,8 @@ off of 125VDC input Max.
 Charge ref is ~10% of input voltage</text>
 <text x="147.32" y="114.3" size="1.778" layer="95">*Output goes HIGH (5V) when cap charge goes
 ABOVE reference</text>
+<text x="-33.02" y="86.36" size="1.778" layer="95">Part #1A3399-10 from Mouser. 
+Must order in multiples of 2</text>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="-50.8" y="12.7" rot="R90"/>

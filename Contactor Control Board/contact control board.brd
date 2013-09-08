@@ -110,15 +110,15 @@
 <wire x1="57.1375" y1="50.79" x2="0" y2="50.79" width="0" layer="20"/>
 <wire x1="0" y1="50.79" x2="0" y2="0" width="0" layer="20"/>
 <text x="7.62" y="41.5925" size="1.4224" layer="25" ratio="15">2A Fast Blow ONLY!</text>
-<text x="0.635" y="33.9725" size="1.016" layer="25" font="vector" ratio="15">B+</text>
-<text x="0.635" y="30.1625" size="1.016" layer="25" font="vector" ratio="15">PREC
+<text x="0.635" y="33.655" size="1.016" layer="25" font="vector" ratio="15">B+</text>
+<text x="0.635" y="29.21" size="1.016" layer="25" font="vector" ratio="15">PREC
 OUT</text>
-<text x="0.635" y="26.9875" size="1.016" layer="25" font="vector" ratio="15">CNTCT
+<text x="0.635" y="25.7175" size="1.016" layer="25" font="vector" ratio="15">CNTCT
 GND</text>
-<text x="0.635" y="23.1775" size="1.016" layer="25" font="vector" ratio="15">CNTCT
+<text x="0.635" y="22.225" size="1.016" layer="25" font="vector" ratio="15">CNTCT
 PWR</text>
-<text x="0.635" y="20.0025" size="1.016" layer="25" font="vector" ratio="15">B-</text>
-<text x="0.635" y="16.1925" size="1.016" layer="25" font="vector" ratio="15">THRT</text>
+<text x="0.635" y="19.3675" size="1.016" layer="25" font="vector" ratio="15">B-</text>
+<text x="0.635" y="15.875" size="1.016" layer="25" font="vector" ratio="15">THRT</text>
 <text x="51.435" y="17.145" size="1.016" layer="25" font="vector" ratio="15">GND</text>
 <text x="51.435" y="19.685" size="1.016" layer="25" font="vector" ratio="15">5V</text>
 <text x="51.435" y="21.2725" size="1.016" layer="25" font="vector" ratio="15">CNTCT
