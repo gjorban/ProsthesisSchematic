@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -6826,11 +6826,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="106.68" x2="96.52" y2="106.68" width="0.2032" layer="91"/>
-<label x="96.52" y="106.68" size="1.778" layer="95"/>
-<pinref part="POT" gate="G$1" pin="6"/>
-</segment>
-<segment>
 <pinref part="74VHC14MTCX" gate="A" pin="VCC"/>
 <wire x1="99.06" y1="175.26" x2="96.52" y2="175.26" width="0.2032" layer="91"/>
 <label x="93.98" y="175.26" size="1.778" layer="95" rot="R180"/>
@@ -6880,21 +6875,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="223.52" x2="93.98" y2="223.52" width="0.2032" layer="91"/>
 <junction x="96.52" y="223.52"/>
-</segment>
-<segment>
-<pinref part="DISP" gate="G$1" pin="3"/>
-<wire x1="223.52" y1="86.36" x2="228.6" y2="86.36" width="0.2032" layer="91"/>
-<label x="228.6" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="73.66" x2="243.84" y2="69.85" width="0.2032" layer="91"/>
-<label x="243.84" y="69.85" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="234.95" y1="71.12" x2="234.95" y2="68.58" width="0.2032" layer="91"/>
-<label x="234.95" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -7469,6 +7449,26 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="213.36" y1="137.16" x2="208.28" y2="137.16" width="0.2032" layer="91"/>
 <label x="208.28" y="137.16" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="234.95" y1="71.12" x2="234.95" y2="68.58" width="0.2032" layer="91"/>
+<label x="234.95" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="73.66" x2="243.84" y2="69.85" width="0.2032" layer="91"/>
+<label x="243.84" y="69.85" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DISP" gate="G$1" pin="3"/>
+<wire x1="223.52" y1="86.36" x2="228.6" y2="86.36" width="0.2032" layer="91"/>
+<label x="228.6" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="91.44" y1="106.68" x2="96.52" y2="106.68" width="0.2032" layer="91"/>
+<label x="96.52" y="106.68" size="1.778" layer="95"/>
+<pinref part="POT" gate="G$1" pin="6"/>
+</segment>
 </net>
 <net name="D22" class="0">
 <segment>
@@ -7768,6 +7768,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="93.98" y1="86.36" x2="96.52" y2="86.36" width="0.2032" layer="91"/>
 <pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="96.52" y1="86.36" x2="96.52" y2="83.82" width="0.2032" layer="91"/>
+<junction x="96.52" y="86.36"/>
 </segment>
 <segment>
 <pinref part="74VHC14MTCX" gate="A" pin="A0"/>
@@ -7890,8 +7891,12 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </sheets>
 <errors>
 <approved hash="104,1,99.06,175.26,74VHC14MTCX,VCC,5V,,,"/>
+<approved hash="202,1,99.06,162.56,74VHC14MTCX,A3,,,,"/>
+<approved hash="202,1,99.06,160.02,74VHC14MTCX,A4,,,,"/>
 <approved hash="104,1,99.06,223.52,74VHC14MTCX1,VCC,5V,,,"/>
-<approved hash="115,1,38.1,79.7772,ROCKERS,,,,,"/>
+<approved hash="202,1,99.06,210.82,74VHC14MTCX1,A3,,,,"/>
+<approved hash="202,1,99.06,208.28,74VHC14MTCX1,A4,,,,"/>
+<approved hash="202,1,99.06,205.74,74VHC14MTCX1,A5,,,,"/>
 </errors>
 </schematic>
 </drawing>
