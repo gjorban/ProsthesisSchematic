@@ -136,12 +136,15 @@
 <text x="49.2125" y="37.465" size="0.8128" layer="25" font="vector" ratio="15" rot="R180">12V Always On</text>
 <text x="49.2125" y="40.9575" size="0.8128" layer="25" font="vector" ratio="15" rot="R180">12V PWR</text>
 <text x="49.2125" y="44.7675" size="0.8128" layer="25" font="vector" ratio="15" rot="R180">GND</text>
-<text x="33.02" y="76.835" size="0.8128" layer="25" font="vector" ratio="15" rot="R270">DISCH_CURR_LIM</text>
-<text x="30.48" y="76.835" size="0.8128" layer="25" font="vector" ratio="15" rot="R270">CHRG_CURR_LIMIT</text>
-<text x="27.6225" y="76.835" size="0.8128" layer="25" font="vector" ratio="15" rot="R270">AMP_OUT</text>
-<text x="25.0825" y="76.835" size="0.8128" layer="25" font="vector" ratio="15" rot="R270">STATE_OF_CHARGE</text>
+<text x="32.7025" y="76.2" size="0.8128" layer="25" font="vector" ratio="15" rot="R270">DISCH_CURR_LIM</text>
+<text x="30.1625" y="76.2" size="0.8128" layer="25" font="vector" ratio="15" rot="R270">CHRG_CURR_LIMIT</text>
+<text x="27.6225" y="76.2" size="0.8128" layer="25" font="vector" ratio="15" rot="R270">AMP_OUT</text>
+<text x="25.0825" y="76.2" size="0.8128" layer="25" font="vector" ratio="15" rot="R270">STATE_OF_CHARGE</text>
 <text x="43.815" y="67.6275" size="1.778" layer="25" font="vector" ratio="15" rot="R90">BMS CAN1</text>
 <text x="43.815" y="18.7325" size="1.778" layer="25" font="vector" ratio="15" rot="R90">BMS CAN2</text>
+<text x="6.6675" y="6.6675" size="1.016" layer="25" font="vector" ratio="15">CHG SFTY</text>
+<text x="18.7325" y="6.6675" size="1.016" layer="25" font="vector" ratio="15">CHG EN</text>
+<text x="28.2575" y="6.6675" size="1.016" layer="25" font="vector" ratio="15">DSCHG EN</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -334,64 +337,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-0.795" y="2.62" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.69" y="3.415" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="SCREWTERMINAL-3.5MM-2">
-<wire x1="-1.75" y1="3.4" x2="5.25" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="3.4" x2="5.25" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-2.8" x2="5.25" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-3.6" x2="-1.75" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-3.6" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-2.8" x2="-1.75" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-2.8" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-1.35" x2="-2.15" y2="-1.35" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="-1.35" x2="-2.15" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="-2.35" x2="-1.75" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="3.15" x2="5.65" y2="3.15" width="0.2032" layer="51"/>
-<wire x1="5.65" y1="3.15" x2="5.65" y2="2.15" width="0.2032" layer="51"/>
-<wire x1="5.65" y1="2.15" x2="5.25" y2="2.15" width="0.2032" layer="51"/>
-<circle x="2" y="3" radius="0.2828" width="0.127" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.2" diameter="2.032" shape="square"/>
-<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.032"/>
-<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="1X04">
-<wire x1="6.985" y1="1.27" x2="8.255" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="8.255" y1="1.27" x2="8.89" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="8.89" y1="-0.635" x2="8.255" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="6.985" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-0.635" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="8.255" y1="-1.27" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="8.89" y1="0.635" x2="8.89" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="square" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
 <package name="SCREWTERMINAL-3.5MM-3">
 <wire x1="-2.3" y1="3.4" x2="9.3" y2="3.4" width="0.2032" layer="21"/>
 <wire x1="9.3" y1="3.4" x2="9.3" y2="-2.8" width="0.2032" layer="21"/>
@@ -411,6 +356,36 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pad name="3" x="7" y="0" drill="1.2" diameter="2.413"/>
 <text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="MOLEX-1X4_LOCK">
+<wire x1="-1.27" y1="3.048" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="8.89" y1="3.048" x2="8.89" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="8.89" y1="3.048" x2="-1.27" y2="3.048" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-2.54" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.27" x2="7.62" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.27" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
+<pad name="1" x="0" y="0.127" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="2" x="2.54" y="-0.127" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="5.08" y="0.127" drill="1.016" diameter="1.8796"/>
+<pad name="4" x="7.62" y="-0.127" drill="1.016" diameter="1.8796"/>
+</package>
+<package name="MOLEX-1X2_LOCK">
+<wire x1="-1.27" y1="3.048" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="3.048" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="3.048" x2="-1.27" y2="3.048" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<pad name="1" x="-0.127" y="0" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="2" x="2.667" y="0" drill="1.016" diameter="1.8796"/>
+<rectangle x1="-0.2921" y1="-0.2921" x2="0.2921" y2="0.2921" layer="51"/>
+<rectangle x1="2.2479" y1="-0.2921" x2="2.8321" y2="0.2921" layer="51"/>
 </package>
 </packages>
 </library>
@@ -716,22 +691,22 @@ design rules under a new name.</description>
 <element name="R2" library="SparkFun-Resistors" package="0603-RES" value="120" x="42.8625" y="13.335" rot="R90"/>
 <element name="U$1" library="SparkFun-Electromechanical" package="RELAY-G5V" value="RELAY-2G5Q" x="20.955" y="19.685" rot="R270"/>
 <element name="U$2" library="SparkFun-Electromechanical" package="RELAY-G5V" value="RELAY-2G5Q" x="31.75" y="19.685" rot="R270"/>
-<element name="PACK_CONTACTOR" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="29.5275" y="2.8575"/>
 <element name="D1" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="1n4001" x="31.75" y="28.575"/>
-<element name="PACK_CHARGE_EN" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="18.7325" y="2.8575"/>
-<element name="PACK_CHARGE_SFTY" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="7.9375" y="2.8575"/>
 <element name="D2" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="1n4001" x="20.955" y="28.575"/>
 <element name="U$3" library="SparkFun-Electromechanical" package="RELAY-G5V" value="RELAY-2G5Q" x="10.16" y="19.685" rot="R270"/>
 <element name="D3" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="1n4001" x="10.16" y="28.575"/>
 <element name="R3" library="SparkFun-Resistors" package="0603-RES" value="1K" x="7.9375" y="78.74" rot="R90"/>
 <element name="FAULT" library="SparkFun-LED" package="LED5MM" value="Red" x="14.2875" y="79.0575"/>
 <element name="PWR" library="SparkFun-LED" package="LED5MM" value="GREEN" x="14.2875" y="71.755"/>
-<element name="ANALOG_OUT" library="SparkFun-Connectors" package="1X04" value="" x="25.7175" y="78.74"/>
 <element name="STANDOFF1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="2.8575" y="2.8575"/>
 <element name="STANDOFF2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="2.8575" y="76.2"/>
 <element name="STANDOFF3" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="38.1" y="2.8575"/>
 <element name="STANDOFF4" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="38.1" y="76.2"/>
 <element name="JP1" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="" x="53.6575" y="37.465" rot="R90"/>
+<element name="ANALOG_OUT" library="SparkFun-Connectors" package="MOLEX-1X4_LOCK" value="" x="25.4" y="79.0575"/>
+<element name="PACK_CONTACTOR" library="SparkFun-Connectors" package="MOLEX-1X2_LOCK" value="M02POLAR_LOCK" x="30.48" y="2.8575"/>
+<element name="PACK_CHARGE_EN" library="SparkFun-Connectors" package="MOLEX-1X2_LOCK" value="M02POLAR_LOCK" x="20.0025" y="2.8575"/>
+<element name="PACK_CHARGE_SFTY" library="SparkFun-Connectors" package="MOLEX-1X2_LOCK" value="M02POLAR_LOCK" x="8.89" y="2.8575"/>
 </elements>
 <signals>
 <signal name="ALWAYS_ON_PWR">
@@ -742,7 +717,7 @@ design rules under a new name.</description>
 <signal name="CHARGE_CURRENT_LIMIT">
 <contactref element="BMS_IO" pad="5"/>
 <contactref element="ANALOG_OUT" pad="3"/>
-<wire x1="20.32" y1="58.7375" x2="30.7975" y2="78.74" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="58.7375" x2="30.48" y2="79.1845" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DISCHARGE_ENABLE">
 <contactref element="BMS_IO" pad="7"/>
@@ -757,8 +732,6 @@ design rules under a new name.</description>
 <signal name="GND">
 <contactref element="BMS_IO" pad="11"/>
 <contactref element="BMS_IO" pad="12"/>
-<contactref element="PACK_CONTACTOR" pad="2"/>
-<contactref element="PACK_CHARGE_SFTY" pad="2"/>
 <contactref element="PWR" pad="K"/>
 <polygon width="0.254" layer="16" isolate="0.3048">
 <vertex x="0.635" y="81.915"/>
@@ -767,6 +740,8 @@ design rules under a new name.</description>
 <vertex x="56.515" y="82.2325"/>
 </polygon>
 <contactref element="JP1" pad="3"/>
+<contactref element="PACK_CONTACTOR" pad="2"/>
+<contactref element="PACK_CHARGE_SFTY" pad="2"/>
 </signal>
 <signal name="MULTIPURPOSE_INPUT">
 <contactref element="BMS_IO" pad="13"/>
@@ -774,7 +749,7 @@ design rules under a new name.</description>
 <signal name="AMPERAGE_OUT">
 <contactref element="BMS_IO" pad="15"/>
 <contactref element="ANALOG_OUT" pad="2"/>
-<wire x1="20.32" y1="46.0375" x2="28.2575" y2="78.74" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="46.0375" x2="27.94" y2="78.9305" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN1_SHIELD">
 <contactref element="BMS_IO" pad="17"/>
@@ -826,7 +801,7 @@ design rules under a new name.</description>
 <signal name="STATE_OF_CHARGE">
 <contactref element="BMS_IO" pad="4"/>
 <contactref element="ANALOG_OUT" pad="1"/>
-<wire x1="22.86" y1="61.2775" x2="25.7175" y2="78.74" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="61.2775" x2="25.4" y2="79.1845" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CHARGE_SAFETY">
 <contactref element="BMS_IO" pad="6"/>
@@ -853,7 +828,7 @@ design rules under a new name.</description>
 <signal name="DISCHARGE_CURRENT_LIMIT">
 <contactref element="BMS_IO" pad="16"/>
 <contactref element="ANALOG_OUT" pad="4"/>
-<wire x1="22.86" y1="46.0375" x2="33.3375" y2="78.74" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="46.0375" x2="33.02" y2="78.9305" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN1_H">
 <contactref element="BMS_IO" pad="18"/>
@@ -879,26 +854,26 @@ design rules under a new name.</description>
 <contactref element="BMS_IO" pad="26"/>
 </signal>
 <signal name="PACK_CONTACT_OUT">
-<contactref element="PACK_CONTACTOR" pad="1"/>
 <contactref element="U$2" pad="10"/>
-<wire x1="29.5275" y1="2.8575" x2="29.21" y2="14.605" width="0" layer="19" extent="1-1"/>
+<contactref element="PACK_CONTACTOR" pad="1"/>
+<wire x1="30.353" y1="2.8575" x2="29.21" y2="14.605" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PACK_CHARGE_IN">
-<contactref element="PACK_CHARGE_EN" pad="1"/>
 <contactref element="U$1" pad="6"/>
 <contactref element="U$1" pad="5"/>
+<contactref element="PACK_CHARGE_EN" pad="1"/>
 <wire x1="18.415" y1="24.765" x2="23.495" y2="24.765" width="0" layer="19" extent="1-1"/>
-<wire x1="18.7325" y1="2.8575" x2="18.415" y2="24.765" width="0" layer="19" extent="1-1"/>
+<wire x1="19.8755" y1="2.8575" x2="18.415" y2="24.765" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PACK_CHARGE_OUT">
-<contactref element="PACK_CHARGE_EN" pad="2"/>
 <contactref element="U$1" pad="10"/>
-<wire x1="22.2325" y1="2.8575" x2="18.415" y2="14.605" width="0" layer="19" extent="1-1"/>
+<contactref element="PACK_CHARGE_EN" pad="2"/>
+<wire x1="22.6695" y1="2.8575" x2="18.415" y2="14.605" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PACK_SAFETY_IN">
-<contactref element="PACK_CHARGE_SFTY" pad="1"/>
 <contactref element="U$3" pad="10"/>
-<wire x1="7.9375" y1="2.8575" x2="7.62" y2="14.605" width="0" layer="19" extent="1-1"/>
+<contactref element="PACK_CHARGE_SFTY" pad="1"/>
+<wire x1="8.763" y1="2.8575" x2="7.62" y2="14.605" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R3" pad="2"/>

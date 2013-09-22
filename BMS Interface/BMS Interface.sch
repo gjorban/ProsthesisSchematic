@@ -3222,22 +3222,22 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120"/>
 <part name="U$1" library="SparkFun-Electromechanical" deviceset="RELAY-2" device="G5Q"/>
 <part name="U$2" library="SparkFun-Electromechanical" deviceset="RELAY-2" device="G5Q"/>
-<part name="PACK_CONTACTOR" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA" value="1n4001"/>
-<part name="PACK_CHARGE_EN" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
-<part name="PACK_CHARGE_SFTY" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA" value="1n4001"/>
 <part name="U$3" library="SparkFun-Electromechanical" deviceset="RELAY-2" device="G5Q"/>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA" value="1n4001"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
 <part name="FAULT" library="SparkFun-LED" deviceset="LED" device="5MM" value="Red"/>
 <part name="PWR" library="SparkFun-LED" deviceset="LED" device="5MM" value="GREEN"/>
-<part name="ANALOG_OUT" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF4" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M03" device="SCREW"/>
+<part name="ANALOG_OUT" library="SparkFun-Connectors" deviceset="M04" device="POLAR_LOCK"/>
+<part name="PACK_CONTACTOR" library="SparkFun-Connectors" deviceset="M02" device="POLAR_LOCK"/>
+<part name="PACK_CHARGE_EN" library="SparkFun-Connectors" deviceset="M02" device="POLAR_LOCK"/>
+<part name="PACK_CHARGE_SFTY" library="SparkFun-Connectors" deviceset="M02" device="POLAR_LOCK"/>
 </parts>
 <sheets>
 <sheet>
@@ -3253,22 +3253,22 @@ Something with a latch</text>
 <instance part="R2" gate="G$1" x="99.06" y="12.7" rot="R90"/>
 <instance part="U$1" gate="G$1" x="38.1" y="-2.54" rot="R90"/>
 <instance part="U$2" gate="G$1" x="63.5" y="-2.54" rot="R90"/>
-<instance part="PACK_CONTACTOR" gate="G$1" x="104.14" y="124.46" rot="R270"/>
 <instance part="D1" gate="G$1" x="63.5" y="-17.78" rot="R180"/>
-<instance part="PACK_CHARGE_EN" gate="G$1" x="121.92" y="124.46" rot="R270"/>
-<instance part="PACK_CHARGE_SFTY" gate="G$1" x="137.16" y="124.46" rot="R270"/>
 <instance part="D2" gate="G$1" x="38.1" y="-17.78" rot="R180"/>
 <instance part="U$3" gate="G$1" x="7.62" y="-2.54" rot="R90"/>
 <instance part="D3" gate="G$1" x="7.62" y="-17.78" rot="R180"/>
 <instance part="R3" gate="G$1" x="-5.08" y="121.92"/>
 <instance part="FAULT" gate="G$1" x="10.16" y="121.92" rot="R90"/>
 <instance part="PWR" gate="G$1" x="10.16" y="109.22" rot="R90"/>
-<instance part="ANALOG_OUT" gate="G$1" x="66.04" y="121.92" rot="R270"/>
 <instance part="STANDOFF1" gate="G$1" x="162.56" y="71.12"/>
 <instance part="STANDOFF2" gate="G$1" x="162.56" y="68.58"/>
 <instance part="STANDOFF3" gate="G$1" x="160.02" y="68.58"/>
 <instance part="STANDOFF4" gate="G$1" x="160.02" y="71.12"/>
 <instance part="JP1" gate="G$1" x="86.36" y="124.46" rot="R270"/>
+<instance part="ANALOG_OUT" gate="G$1" x="66.04" y="119.38" rot="R270"/>
+<instance part="PACK_CONTACTOR" gate="G$1" x="104.14" y="124.46" rot="R270"/>
+<instance part="PACK_CHARGE_EN" gate="G$1" x="121.92" y="124.46" rot="R270"/>
+<instance part="PACK_CHARGE_SFTY" gate="G$1" x="137.16" y="124.46" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -3292,9 +3292,10 @@ Something with a latch</text>
 <label x="-15.24" y="60.96" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="ANALOG_OUT" gate="G$1" pin="3"/>
-<wire x1="68.58" y1="116.84" x2="68.58" y2="111.76" width="0.2032" layer="91"/>
+<wire x1="68.58" y1="114.3" x2="68.58" y2="111.76" width="0.2032" layer="91"/>
 <label x="68.58" y="111.76" size="1.778" layer="95" rot="R270"/>
+<pinref part="ANALOG_OUT" gate="G$1" pin="3"/>
+<junction x="68.58" y="114.3"/>
 </segment>
 </net>
 <net name="DISCHARGE_ENABLE" class="0">
@@ -3337,14 +3338,16 @@ Something with a latch</text>
 <pinref part="JP1" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="PACK_CONTACTOR" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="116.84" x2="106.68" y2="111.76" width="0.2032" layer="91"/>
 <label x="106.68" y="111.76" size="1.778" layer="95" rot="R270"/>
+<pinref part="PACK_CONTACTOR" gate="G$1" pin="2"/>
+<junction x="106.68" y="116.84"/>
 </segment>
 <segment>
-<pinref part="PACK_CHARGE_SFTY" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="116.84" x2="139.7" y2="111.76" width="0.2032" layer="91"/>
 <label x="139.7" y="111.76" size="1.778" layer="95" rot="R270"/>
+<pinref part="PACK_CHARGE_SFTY" gate="G$1" pin="2"/>
+<junction x="139.7" y="116.84"/>
 </segment>
 <segment>
 <pinref part="PWR" gate="G$1" pin="C"/>
@@ -3366,9 +3369,10 @@ Something with a latch</text>
 <label x="-15.24" y="48.26" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="ANALOG_OUT" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="116.84" x2="66.04" y2="111.76" width="0.2032" layer="91"/>
+<wire x1="66.04" y1="114.3" x2="66.04" y2="111.76" width="0.2032" layer="91"/>
 <label x="66.04" y="111.76" size="1.778" layer="95" rot="R270"/>
+<pinref part="ANALOG_OUT" gate="G$1" pin="2"/>
+<junction x="66.04" y="114.3"/>
 </segment>
 </net>
 <net name="CAN1_SHIELD" class="0">
@@ -3505,9 +3509,10 @@ Something with a latch</text>
 <label x="10.16" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ANALOG_OUT" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="116.84" x2="63.5" y2="111.76" width="0.2032" layer="91"/>
+<wire x1="63.5" y1="114.3" x2="63.5" y2="111.76" width="0.2032" layer="91"/>
 <label x="63.5" y="111.76" size="1.778" layer="95" rot="R270"/>
+<pinref part="ANALOG_OUT" gate="G$1" pin="1"/>
+<junction x="63.5" y="114.3"/>
 </segment>
 </net>
 <net name="CHARGE_SAFETY" class="0">
@@ -3568,9 +3573,10 @@ Something with a latch</text>
 <label x="10.16" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ANALOG_OUT" gate="G$1" pin="4"/>
-<wire x1="71.12" y1="116.84" x2="71.12" y2="111.76" width="0.2032" layer="91"/>
+<wire x1="71.12" y1="114.3" x2="71.12" y2="111.76" width="0.2032" layer="91"/>
 <label x="71.12" y="111.76" size="1.778" layer="95" rot="R270"/>
+<pinref part="ANALOG_OUT" gate="G$1" pin="4"/>
+<junction x="71.12" y="114.3"/>
 </segment>
 </net>
 <net name="CAN1_H" class="0">
@@ -3628,9 +3634,10 @@ Something with a latch</text>
 </net>
 <net name="PACK_CONTACT_OUT" class="0">
 <segment>
-<pinref part="PACK_CONTACTOR" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="116.84" x2="104.14" y2="111.76" width="0.2032" layer="91"/>
 <label x="104.14" y="111.76" size="1.778" layer="95" rot="R270"/>
+<pinref part="PACK_CONTACTOR" gate="G$1" pin="1"/>
+<junction x="104.14" y="116.84"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="10"/>
@@ -3640,9 +3647,10 @@ Something with a latch</text>
 </net>
 <net name="PACK_CHARGE_IN" class="0">
 <segment>
-<pinref part="PACK_CHARGE_EN" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="116.84" x2="121.92" y2="111.76" width="0.2032" layer="91"/>
 <label x="121.92" y="111.76" size="1.778" layer="95" rot="R270"/>
+<pinref part="PACK_CHARGE_EN" gate="G$1" pin="1"/>
+<junction x="121.92" y="116.84"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="6"/>
@@ -3657,9 +3665,10 @@ Something with a latch</text>
 </net>
 <net name="PACK_CHARGE_OUT" class="0">
 <segment>
-<pinref part="PACK_CHARGE_EN" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="116.84" x2="124.46" y2="111.76" width="0.2032" layer="91"/>
 <label x="124.46" y="111.76" size="1.778" layer="95" rot="R270"/>
+<pinref part="PACK_CHARGE_EN" gate="G$1" pin="2"/>
+<junction x="124.46" y="116.84"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="10"/>
@@ -3669,9 +3678,10 @@ Something with a latch</text>
 </net>
 <net name="PACK_SAFETY_IN" class="0">
 <segment>
-<pinref part="PACK_CHARGE_SFTY" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="116.84" x2="137.16" y2="111.76" width="0.2032" layer="91"/>
 <label x="137.16" y="111.76" size="1.778" layer="95" rot="R270"/>
+<pinref part="PACK_CHARGE_SFTY" gate="G$1" pin="1"/>
+<junction x="137.16" y="116.84"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="10"/>
@@ -3696,10 +3706,8 @@ Something with a latch</text>
 <approved hash="106,1,-10.16,50.8,MULTIPURPOSE_INPUT,,,,,"/>
 <approved hash="106,1,-10.16,35.56,N$13,,,,,"/>
 <approved hash="106,1,5.08,35.56,N$26,,,,,"/>
-<approved hash="113,1,89.0947,120.057,PWR_IN,,,,,"/>
 <approved hash="113,1,124.46,44.6081,CAN1,,,,,"/>
 <approved hash="113,1,124.46,16.6681,CAN2,,,,,"/>
-<approved hash="113,1,68.7747,118.814,ANALOG_OUT,,,,,"/>
 </errors>
 </schematic>
 </drawing>
