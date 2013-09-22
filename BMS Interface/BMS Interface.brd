@@ -145,6 +145,10 @@
 <text x="6.6675" y="6.6675" size="1.016" layer="25" font="vector" ratio="15">CHG SFTY</text>
 <text x="18.7325" y="6.6675" size="1.016" layer="25" font="vector" ratio="15">CHG EN</text>
 <text x="28.2575" y="6.6675" size="1.016" layer="25" font="vector" ratio="15">DSCHG EN</text>
+<text x="7.3025" y="2.2225" size="1.016" layer="25" font="vector" ratio="15" rot="R90">+ve</text>
+<text x="28.8925" y="2.2225" size="1.016" layer="25" font="vector" ratio="15" rot="R90">+ve</text>
+<text x="13.6525" y="2.2225" size="1.016" layer="25" font="vector" ratio="15" rot="R90">-ve</text>
+<text x="35.2425" y="2.2225" size="1.016" layer="25" font="vector" ratio="15" rot="R90">-ve</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
