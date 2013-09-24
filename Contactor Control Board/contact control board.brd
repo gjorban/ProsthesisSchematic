@@ -140,6 +140,8 @@ STATE</text>
 <text x="35.8775" y="6.6675" size="1.016" layer="25" font="vector" ratio="15">+ve</text>
 <text x="25.7175" y="6.6675" size="1.016" layer="25" font="vector" ratio="15">+ve</text>
 <text x="13.6525" y="6.6675" size="1.016" layer="25" font="vector" ratio="15">+ve</text>
+<text x="40.64" y="13.0175" size="1.778" layer="25" font="vector" ratio="15">Prosthesis
+CCB V1.0</text>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
@@ -870,10 +872,9 @@ design rules under a new name.</description>
 <wire x1="19.685" y1="2.54" x2="20.32" y2="1.905" width="0.3048" layer="1"/>
 <wire x1="20.32" y1="1.905" x2="50.4825" y2="1.905" width="0.3048" layer="1"/>
 <wire x1="50.4825" y1="1.905" x2="51.1175" y2="2.54" width="0.3048" layer="1"/>
-<wire x1="51.1175" y1="2.54" x2="51.1175" y2="13.335" width="0.3048" layer="1"/>
-<wire x1="51.1175" y1="13.335" x2="51.435" y2="13.6525" width="0.3048" layer="1"/>
-<via x="51.435" y="13.6525" extent="1-16" drill="0.508"/>
-<wire x1="51.435" y1="13.6525" x2="53.6575" y2="13.6525" width="0.3048" layer="16"/>
+<wire x1="51.1175" y1="2.54" x2="51.1175" y2="11.1125" width="0.3048" layer="1"/>
+<wire x1="51.1175" y1="11.1125" x2="53.6575" y2="13.6525" width="0.3048" layer="1"/>
+<via x="53.6575" y="13.6525" extent="1-16" drill="0.762"/>
 <wire x1="53.6575" y1="13.6525" x2="54.61" y2="14.605" width="0.3048" layer="16"/>
 <wire x1="54.61" y1="14.605" x2="54.61" y2="21.2725" width="0.3048" layer="16"/>
 <wire x1="54.61" y1="21.2725" x2="53.34" y2="22.5425" width="0.3048" layer="16"/>
