@@ -4445,17 +4445,8 @@ Source: http://www.mew-europe.com/..  en_ds_61005_0023.pdf</description>
 <part name="PRECHARGE_FUSE" library="SparkFun-Passives" deviceset="FUSE" device="X20MM"/>
 <part name="RESISTOR" library="SparkFun-Connectors" deviceset="M02" device="2.54MM_SCREWTERM"/>
 <part name="PRECHARGE_RELAY" library="relay" deviceset="DS2Y-S-DC*" device="" technology="5V"/>
-<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="470k"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="13k"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="470k"/>
-<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="110k"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="12k"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="100k"/>
-<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="470"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1k"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="470"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="470"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="470"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1k"/>
@@ -4471,6 +4462,15 @@ Source: http://www.mew-europe.com/..  en_ds_61005_0023.pdf</description>
 <part name="PWR" library="SparkFun-Connectors" deviceset="M02" device="POLAR_LOCK"/>
 <part name="ACTIVE" library="SparkFun-Connectors" deviceset="M02" device="POLAR_LOCK"/>
 <part name="CHARGED" library="SparkFun-Connectors" deviceset="M02" device="POLAR_LOCK"/>
+<part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="470"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="470"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="470"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="470"/>
+<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="470k"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="470k"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="13K"/>
+<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="110k"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="12K"/>
 </parts>
 <sheets>
 <sheet>
@@ -4496,17 +4496,8 @@ Must order in multiples of 2</text>
 <instance part="PRECHARGE_RELAY" gate="1" x="-40.64" y="12.7"/>
 <instance part="PRECHARGE_RELAY" gate="2" x="12.7" y="22.86"/>
 <instance part="PRECHARGE_RELAY" gate="3" x="12.7" y="2.54"/>
-<instance part="R14" gate="G$1" x="71.12" y="160.02" rot="R90"/>
-<instance part="R8" gate="G$1" x="71.12" y="147.32" rot="R90"/>
-<instance part="R9" gate="G$1" x="86.36" y="160.02" rot="R90"/>
-<instance part="R10" gate="G$1" x="86.36" y="147.32" rot="R90"/>
-<instance part="R11" gate="G$1" x="93.98" y="139.7" rot="R180"/>
 <instance part="R12" gate="G$1" x="154.94" y="132.08" rot="R270"/>
-<instance part="R13" gate="G$1" x="63.5" y="91.44" rot="R180"/>
 <instance part="R2" gate="G$1" x="66.04" y="83.82" rot="R180"/>
-<instance part="R1" gate="G$1" x="66.04" y="68.58" rot="R180"/>
-<instance part="R3" gate="G$1" x="129.54" y="78.74" rot="R180"/>
-<instance part="R5" gate="G$1" x="78.74" y="43.18" rot="R180"/>
 <instance part="R4" gate="G$1" x="76.2" y="20.32" rot="R270"/>
 <instance part="R6" gate="G$1" x="58.42" y="-12.7" rot="R270"/>
 <instance part="R7" gate="G$1" x="276.86" y="93.98" rot="R270"/>
@@ -4522,6 +4513,15 @@ Must order in multiples of 2</text>
 <instance part="PWR" gate="G$1" x="53.34" y="78.74" rot="R270"/>
 <instance part="ACTIVE" gate="G$1" x="50.8" y="101.6" rot="R270"/>
 <instance part="CHARGED" gate="G$1" x="119.38" y="91.44" rot="R270"/>
+<instance part="R15" gate="G$1" x="63.5" y="91.44"/>
+<instance part="R3" gate="G$1" x="129.54" y="78.74"/>
+<instance part="R1" gate="G$1" x="66.04" y="68.58"/>
+<instance part="R5" gate="G$1" x="78.74" y="43.18"/>
+<instance part="R14" gate="G$1" x="71.12" y="160.02" rot="R90"/>
+<instance part="R9" gate="G$1" x="86.36" y="160.02" rot="R90"/>
+<instance part="R8" gate="G$1" x="71.12" y="147.32" rot="R90"/>
+<instance part="R13" gate="G$1" x="86.36" y="147.32" rot="R90"/>
+<instance part="R11" gate="G$1" x="93.98" y="139.7" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -4624,7 +4624,7 @@ Must order in multiples of 2</text>
 <segment>
 <wire x1="71.12" y1="68.58" x2="76.2" y2="68.58" width="0.2032" layer="91"/>
 <label x="76.2" y="68.58" size="1.778" layer="95"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="78.74" x2="152.4" y2="78.74" width="0.2032" layer="91"/>
@@ -4764,19 +4764,19 @@ Must order in multiples of 2</text>
 <net name="N$9" class="0">
 <segment>
 <wire x1="53.34" y1="91.44" x2="58.42" y2="91.44" width="0.2032" layer="91"/>
-<pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="ACTIVE" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="93.98" x2="53.34" y2="91.44" width="0.2032" layer="91"/>
 <junction x="53.34" y="93.98"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <wire x1="55.88" y1="68.58" x2="60.96" y2="68.58" width="0.2032" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="PWR" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="71.12" x2="55.88" y2="68.58" width="0.2032" layer="91"/>
 <junction x="55.88" y="71.12"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="72V_IN_FUSED" class="0">
@@ -4811,8 +4811,8 @@ Must order in multiples of 2</text>
 <net name="N$1" class="0">
 <segment>
 <wire x1="71.12" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="Q2" gate="G$1" pin="C"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PRECH_DRAIN" class="0">
@@ -4827,8 +4827,8 @@ Must order in multiples of 2</text>
 <wire x1="83.82" y1="43.18" x2="88.9" y2="43.18" width="0.2032" layer="91"/>
 <wire x1="88.9" y1="43.18" x2="88.9" y2="33.02" width="0.2032" layer="91"/>
 <label x="88.9" y="43.18" size="1.778" layer="95" rot="R90"/>
-<pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="Q3" gate="G$1" pin="D"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PRECH_STATE_OUT" class="0">
@@ -4848,7 +4848,7 @@ Must order in multiples of 2</text>
 <wire x1="86.36" y1="142.24" x2="86.36" y2="139.7" width="0.2032" layer="91"/>
 <wire x1="86.36" y1="139.7" x2="88.9" y2="139.7" width="0.2032" layer="91"/>
 <label x="86.36" y="139.7" size="1.778" layer="95" rot="R180"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -4861,7 +4861,7 @@ Must order in multiples of 2</text>
 <segment>
 <wire x1="86.36" y1="154.94" x2="86.36" y2="152.4" width="0.2032" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="CAP_CHARGE_V_CURR" class="0">
@@ -4914,17 +4914,17 @@ Must order in multiples of 2</text>
 <net name="N$4" class="0">
 <segment>
 <wire x1="121.92" y1="78.74" x2="124.46" y2="78.74" width="0.2032" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="CHARGED" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="83.82" x2="121.92" y2="78.74" width="0.2032" layer="91"/>
 <junction x="121.92" y="83.82"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <wire x1="134.62" y1="78.74" x2="137.16" y2="78.74" width="0.2032" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="Q1" gate="G$1" pin="C"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PRECH_STATE_TO_BUFF" class="0">
@@ -4971,10 +4971,10 @@ Must order in multiples of 2</text>
 <net name="N$7" class="0">
 <segment>
 <wire x1="66.04" y1="43.18" x2="73.66" y2="43.18" width="0.2032" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="CHARGING" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="45.72" x2="66.04" y2="43.18" width="0.2032" layer="91"/>
 <junction x="66.04" y="45.72"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
